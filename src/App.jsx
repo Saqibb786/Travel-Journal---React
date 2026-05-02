@@ -8,12 +8,8 @@ export default function App() {
 const tripsElements = tripsData.map((trip) => {
   return <Entry
           key = {trip.id}
-          img = {trip.img}
-          title = {trip.title}
-          country = {trip.country}
-          googleMapsLink = {trip.googleMapsLink}
-          dates = {trip.dates}
-          text = {trip.text} />
+          trip = {trip}
+           />
 
 })
 
