@@ -1,0 +1,6 @@
+/* First lines of every stylesheet */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    
+}
