@@ -1,12 +1,10 @@
 
-function App() {
+export default function App() {
   
-
   return (
     <>
-      
+      <h1>I am working</h1>
     </>
   )
 }
 
-export default App
